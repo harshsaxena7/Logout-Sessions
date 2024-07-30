@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SiteController</servlet-name>
+  	<display-name>SiteController</display-name>
+  	<description></description>
+  	<servlet-class>org.harsh.SiteController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MemberAreaController</servlet-name>
+  	<display-name>MemberAreaController</display-name>
+  	<description></description>
+  	<servlet-class>org.harsh.MemberAreaController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SiteController</servlet-name>
+  	<url-pattern>/SiteController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MemberAreaController</servlet-name>
+  	<url-pattern>/MemberAreaController</url-pattern>
+  </servlet-mapping>
+</web-app>
